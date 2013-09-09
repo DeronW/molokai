@@ -1,10 +1,10 @@
-  
+
 " Vim color file
 "
 " Author: Tomas Restrepo <tomas@winterdom.com>
 "
 " Note: Based on the monokai theme for textmate
-" by Wimer Hazenberg and its darker variant 
+" by Wimer Hazenberg and its darker variant
 " by Hamish Stuart Macpherson
 "
 
@@ -232,7 +232,7 @@ if &t_Co > 255
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
-   
+
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=252 ctermbg=234
        hi CursorLine               ctermbg=236   cterm=none
@@ -274,9 +274,7 @@ end
 
 
 " extra by myself
-colorscheme molokai                                                                                                                                                                        
-let g:molokai_original = 1
 highlight CursorLine    cterm=none ctermbg=236
 highlight Cursor        ctermfg=16  ctermbg=253
 highlight Normal        ctermbg=16
-highlight Visual        ctermbg=255
+highlight Visual        ctermbg=242
