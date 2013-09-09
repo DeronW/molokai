@@ -271,3 +271,12 @@ if &t_Co > 255
        hi SpecialKey      ctermfg=239
    endif
 end
+
+
+" extra by myself
+colorscheme molokai                                                                                                                                                                        
+let g:molokai_original = 1
+highlight CursorLine    cterm=none ctermbg=236
+highlight Cursor        ctermfg=16  ctermbg=253
+highlight Normal        ctermbg=16
+highlight Visual        ctermbg=255
