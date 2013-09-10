@@ -1,4 +1,3 @@
-
 " Vim color file
 "
 " Author: Tomas Restrepo <tomas@winterdom.com>
@@ -274,7 +273,9 @@ end
 
 
 " extra by myself
-highlight CursorLine    cterm=none ctermbg=236
-highlight Cursor        ctermfg=16  ctermbg=253
-highlight Normal        ctermbg=16
-highlight Visual        ctermbg=242
+hi CursorLine      cterm=none   ctermbg=236
+hi Cursor          ctermfg=16   ctermbg=253
+hi Normal          ctermbg=16
+hi StatusLine      ctermfg=247  ctermbg=16                                                                                                                                                 
+hi StatusLineNC    ctermfg=239  ctermbg=16
+hi Visual          ctermbg=239
