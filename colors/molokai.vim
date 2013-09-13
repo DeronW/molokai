@@ -273,7 +273,7 @@ end
 
 
 " extra by myself
-hi CursorLine      cterm=none   ctermbg=236
+hi CursorLine      cterm=none   ctermbg=237
 hi Cursor          ctermfg=16   ctermbg=253
 hi Normal          ctermbg=16
 hi StatusLine      ctermfg=247  ctermbg=16                                                                                                                                                 
