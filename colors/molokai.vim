@@ -10,7 +10,7 @@
 hi clear
 
 set background=dark
-if version > 580
+if version > 580
     " no guarantees for version 5.8 and below, but this makes it stop
     " complaining
     hi clear
@@ -273,9 +273,10 @@ end
 
 
 " extra by myself
-hi CursorLine      cterm=none   ctermbg=237
-hi Cursor          ctermfg=16   ctermbg=253
+hi CursorLine      ctermbg=237
 hi Normal          ctermbg=16
-hi StatusLine      ctermfg=247  ctermbg=16                                                                                                                                                 
-hi StatusLineNC    ctermfg=239  ctermbg=16
 hi Visual          ctermbg=239
+hi StatusLine      ctermfg=247  ctermbg=16
+hi LineNr          ctermbg=16
+hi StatusLineNC    ctermfg=239  ctermbg=16
+hi CursorLineNr    term=bold    ctermfg=11  gui=bold    guifg=Yellow
