@@ -277,6 +277,6 @@ hi CursorLine      ctermbg=237
 hi Normal          ctermbg=16
 hi Visual          ctermbg=239
 hi StatusLine      ctermfg=247  ctermbg=16
-hi LineNr          ctermbg=16
+hi LineNr          ctermbg=16   ctermfg=238
 hi StatusLineNC    ctermfg=239  ctermbg=16
-hi CursorLineNr    term=bold    ctermfg=11  gui=bold    guifg=Yellow
+hi CursorLineNr    term=bold    ctermfg=202
